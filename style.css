@@ -94,14 +94,24 @@ nav{
     justify-items: center;
 }
 #list-1{
-    height: 100vh;   
+
 }
 .card{
-    border-radius: 1em;
+    border: none;
+    box-shadow:  -3px -3px 7px #ffffff73,
+				2px 2px 5px rgba(94, 104, 121, 0.288 );
 }
 .card-title{
     color: #00783e;
 }
 .card-text{
     color: #c7c7c7;
+    font-family: 'poppins';
+}
+#list-2{
+    margin-top: 50px;
+}
+.card-3 img{
+    width: 100%;
+    height: 200px;
 }
