@@ -7,6 +7,7 @@ body{
     font-family: 'Pangolin', cursive;
     
 }
+/* ----------------------- navbar ------------------------------ */
 nav{
     display: grid;
     grid-template-columns: 10% 1fr 1fr 10%;
@@ -27,15 +28,9 @@ nav{
     justify-self: end;
     font-family: 'Pangolin', cursive;
 }
-
+/* ----------------------- Home ------------------------------ */
 #home{
-    /* display: grid;
-    grid-template-columns: 10% 1fr 1fr 10%;
-    align-items: center; */
     min-height: 90vh;
-}
-.home{
-    /* grid-column: 2/3; */
 }
 .home img{
     width: 100%;
@@ -83,6 +78,7 @@ nav{
     left: 40%;
 }
 
+/* ----------------------- To-Do-List ------------------------------ */
 
 .list-head h1{
     color: #00783e;
@@ -115,3 +111,106 @@ nav{
     width: 100%;
     height: 200px;
 }
+
+
+
+
+/* ----------------------- Sales ------------------------------ */
+
+.sales{
+    width: 100%;
+    height: 100vh;
+}
+.sales-home{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+    
+    
+}
+.sales-img{
+    position: relative;
+    top: 15%;
+}
+.sales-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-image: 1px solid green;
+}
+.sales-content h1{
+    padding-top: 30px;
+    font-weight: 900;
+    color: #00783e;
+}
+.sales-content p{
+    font-size: .8em;
+    font-family: 'poppins';
+}
+
+/* ----------------------- Contact ------------------------------ */
+#contact{
+    width: 100%;
+    height: 35vh;
+    background: #3f6e23;
+    margin-top: 50px;
+}
+.contact-head h1{
+    padding-top: 10px;
+    color: #fff;
+}
+.contact-logo i{
+    color: #fff;
+    font-size: 30px;
+    padding: 10px;
+}
+.footer p{
+    color: #cae3d7;
+    margin-bottom: auto;
+}
+.register{
+    margin-top: 100px;
+}
+.re-img img{
+    position: relative;
+    top: 15%;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 950px ){
+  .to-head{
+      /* margin-top: 50%; */
+  }
+}
+@media only screen and (max-width: 700px){
+    .to-head{
+        margin-top: 70%;
+    }
+  }
+  @media only screen and (max-width: 550px){
+    .to-head{
+        margin-top: 300%;
+    }
+  }
+  @media only screen and (max-width: 375px){
+    .to-head{
+        margin-top: 280%;
+    }
+  }
+  @media only screen and (max-width: 360px){
+    .to-head{
+        margin-top: 340%;
+    }
+  }
+  @media only screen and (max-width: 320px){
+    .to-head{
+        margin-top: 400%;
+    }
+  }
